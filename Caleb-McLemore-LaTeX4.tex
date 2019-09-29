@@ -1,0 +1,99 @@
+\documentclass[12pt]{article}
+\usepackage{amsmath} 
+\usepackage{amsthm}
+
+\usepackage[margin=1in]{geometry}
+\usepackage{setspace}
+
+\usepackage{textcomp}
+
+\title{Prompt 4}
+\author{Caleb McLemore}
+\date{September 29, 2019}
+
+\newtheorem{thm}{Theorem}
+\newtheorem{dfn}{Definition}
+\newtheorem{cor}{Corollary}
+
+
+\begin{document}
+
+\maketitle
+\newpage
+
+
+\begin{center}
+    \textbf{Mathematical Statistics 1}
+\end{center}
+This course deals with decision theory, estimation, confidence intervals, and hypothesis testing. It introduces large sample theory, asymptotic efficiency of estimates, exponential families, and sequential analysis.
+\begin{thm}[Binomial Coefficients]
+\((x+y)^{n} = \sum_{r=0}^{n} {{n}\choose{r}} x^{n-r} y^{r}\) for any positive integer n.
+\end{thm}
+
+\cite{miller2004john}
+
+\begin{center}
+    \textbf{Theory of Interest}
+\end{center}
+The purpose of this course is to recognize, understand, and compute problems relating to time value of money, including simple and compound interest, present and future value, and nominal and effective rates of interest.
+\begin{dfn}[The Effective Rate of Discount]
+The effective rate of discount, denoted by \textbf{d}, is defined as a measure of interest paid at the beginning of the period.
+\end{dfn}
+Formula:
+\begin{center}
+    \textbf{d\(_n\)} = \(\frac{A(n)-A(n-1)}{A(n)}\) = \(\frac{I(n)}{A(n)}\)
+\end{center}
+
+\cite{kellison1991stephen}.
+
+\begin{center}
+    \textbf{Linear Algebra}
+\end{center}
+The basics of this course include learning how to analyze data, compute area and perimeter, use linear models and equal ratios, compare ratios, calculate unit rates and slope ratios, use the triangle inequality and the Pythagorean theorem.
+\begin{cor}[Linear Independence of Subset] 
+Let V be a vector space and \(S_1 \subseteq{S_2} \subseteq{V}\). If S\(_2\) is linearly independent, then S\(_1\) is linearly independent.
+\end{cor}
+
+\cite{lay2015david}.
+
+
+\bibliographystyle{unsrt}
+\bibliography{books.bib}
+
+\newpage
+\begin{thebibliography}{9}
+
+\bibitem{miller2004john}
+\textit{John E. Freund's Mathematical Statistics with Applications.}
+Miller, I. and Miller, M.
+0131427067.
+2003056361.
+\textit{Pearson Modern Classics for Advanced Statistics Series.}
+https://books.google.com/books?id=ccZkswEACAAJ.
+Pearson Education 2004.
+
+\vspace{5mm}
+
+\bibitem{kellison1991stephen}
+\textit{The Theory of Interest.}
+Stephen G. Kellison.
+0256091501.
+https://www.amaxon.com/Stephen-Kellison-Theory-Interest-Second/dp/B004K37PJC.
+1991.
+Irwin/McGraw-Hill; 2nd Edition
+
+  
+\vspace{5mm}
+
+\bibitem{lay2015david}
+\textit{Linear Algebra and Its Applications}.
+David Lay, Steven Lay, Judi McDonald.
+9780321982384.
+https://www.amazon.com/dp/032198238X/ref=cm\_sw\_r\_cp\_api\_i\_BssKDb9Z4J76T.
+2015.
+Pearson; 5th Edition.
+
+ 
+
+\end{thebibliography}
+\end{document}
